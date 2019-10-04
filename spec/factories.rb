@@ -6,6 +6,11 @@ FactoryBot.define do
     password {"secretPassword"}
     password_confirmation {"secretPassword"}
   end
+
+  factory :gram do
+    message { "hello"}
+    association :user
+  end
 end
 
 #had to remove {} from the email to get this to work
