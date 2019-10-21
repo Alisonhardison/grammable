@@ -1,24 +1,24 @@
-# README
+# Grammable
+An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.
+This app is viewable here https://grammable-alison-hardison.herokuapp.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Implementation Details:
+ - Built on Ruby on Rails framework
+ - PostgreSQL database
+ - Twitter Bootstrap 3 for CSS and UI components
+ - Simple Form gem for form implementation
+ - Devise gem for user authentication (customized to allow :username at sign up & save to DB)
+ - CarrierWave gem for image and video uploading & Amazon Web Services (S3) for photo/video storage
+ - MiniMagick for image resizing on upload
+ - TDD using RSpec & FactoryBot gems
+ - Responsive design
 
-Things you may want to cover:
+## Production Deployment
+  $ heroku create grammable-alison-hardison
 
-* Ruby version
+  $ git push heroku master
+  
+## Support
+  Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here: 
+  https://github.com/Alisonhardison/grammable/issues
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
